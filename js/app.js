@@ -67,8 +67,8 @@ function consultarAPI(ciudad, pais) {
         resulParagraph.innerHTML = `
           <h1>${name}</h1>
           <h1>${temperature} &#8451</h1>
-          <h1> Temp Max. : ${temperatureMax} &#8451</h1>
-          <h1> Temp Min. : ${temperatureMin} &#8451</h1>
+          <h1> Max. : ${temperatureMax} &#8451</h1>
+          <h1> Min. : ${temperatureMin} &#8451</h1>
         `;
         const divResulParagraph = document.createElement('div')
         divResulParagraph.classList.add('text-center', 'text-white')
