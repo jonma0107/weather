@@ -12,8 +12,8 @@ function buscarClima(e) {
   e.preventDefault();
 
   // Validar
-  const ciudad = document.querySelector('#ciudad').value;
-  const pais = document.querySelector('#pais').value;
+  const ciudad = document.querySelector('#ciudad').value.trim();
+  const pais = document.querySelector('#pais').value.trim();
 
   if (ciudad === '' || pais === '') {
     console.log('debes llenar todos los campos');
